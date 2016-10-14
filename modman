@@ -7,4 +7,4 @@ app/design/frontend/base/default/template/*     app/design/frontend/base/default
 app/etc/modules/*                               app/etc/modules/
 skin/adminhtml/default/default/iwd/*            skin/adminhtml/default/default/iwd/
 js/*                                            js/
-app/locale/*                                    app/locale/
+app/locale/en_US/*                              app/locale/en_US/
