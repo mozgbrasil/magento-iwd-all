@@ -91,5 +91,7 @@ Cada módulo tem a sua pasta no diretório /vendor/mozgbrasil/
 [![License](https://poser.pugx.org/mozgbrasil/magento-iwd-all/license)](https://packagist.org/packages/mozgbrasil/magento-iwd-all)
 [![Monthly Downloads](https://poser.pugx.org/mozgbrasil/magento-iwd-all/d/monthly)](https://packagist.org/packages/mozgbrasil/magento-iwd-all)
 [![Daily Downloads](https://poser.pugx.org/mozgbrasil/magento-iwd-all/d/daily)](https://packagist.org/packages/mozgbrasil/magento-iwd-all)
+[![Reference Status](https://www.versioneye.com/php/mozgbrasil:magento-iwd-all/reference_badge.svg?style=flat-square)](https://www.versioneye.com/php/mozgbrasil:magento-iwd-all/references)
+[![Dependency Status](https://www.versioneye.com/php/mozgbrasil:magento-iwd-all/1.0.0/badge?style=flat-square)](https://www.versioneye.com/php/mozgbrasil:magento-iwd-all/1.0.0)
 
 :cat2:
