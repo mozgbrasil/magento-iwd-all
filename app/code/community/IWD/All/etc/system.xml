@@ -10,7 +10,7 @@
 
     <sections>
         <iwdstore>
-        	<class>separator-top</class>
+            <class>separator-top</class>
             <label>IWD Extensions</label>
             <tab>iwdall</tab>
             <frontend_type>text</frontend_type>

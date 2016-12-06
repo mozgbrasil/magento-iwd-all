@@ -11,7 +11,7 @@ class IWD_All_Model_Paypal_Config extends Mage_Paypal_Model_Config
     /**
      * BN code getter
      *
-     * @param string $countryCode ISO 3166-1
+     * @return mixed
      */
     public function getBuildNotationCode($countryCode = null)
     {

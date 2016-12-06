@@ -1,4 +1,5 @@
 <?php
+
 class IWD_All_Block_Adminhtml_Support_Edit_Form extends Mage_Adminhtml_Block_Widget_Form
 {
     protected function _prepareForm()
@@ -26,12 +27,19 @@ class IWD_All_Block_Adminhtml_Support_Edit_Form extends Mage_Adminhtml_Block_Wid
         ));
 
         $fieldset->addField('type', 'select', array(
-            'name'     => 'subject',
+            'name'     => 'type_of_issue',
             'label'    => $helper->__('Type of issue'),
             'values'   => Mage::getModel('iwdall/issuetype')->toOptionArray(),
             'required' => true,
             'value' => false
         ));
+
+        $fieldset->addField('subject', 'text', array(
+            'name'     => 'subject',
+            'label'    => $helper->__('Subject'),
+            'required' => false,
+        ));
+
         $fieldset->addField('description', 'textarea', array(
             'name'     => 'description',
             'label'    => $helper->__('Describe your issue'),
@@ -45,14 +53,15 @@ class IWD_All_Block_Adminhtml_Support_Edit_Form extends Mage_Adminhtml_Block_Wid
             'name'     => 'attachments[]',
             'multiple' => true,
             'label'    => Mage::helper('adminhtml')->__('Attachment files'),
-        ));    
+        ));
         
             $fieldset->addField('email', 'text', array(
             'name'     => 'email',
             'label'    => Mage::helper('adminhtml')->__('Your e-mail'),
             'value'    => $user['email'], 
             'required' => true,
-        ));     
+        ));
+
         $fieldset->addField('name', 'text', array(
             'name'     => 'name',
             'label'    => Mage::helper('adminhtml')->__('Your name'),

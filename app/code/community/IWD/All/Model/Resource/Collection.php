@@ -1,4 +1,5 @@
 <?php
+
 class IWD_All_Model_Resource_Collection extends Varien_Data_Collection
 {
     protected $_filters = array();
@@ -110,11 +111,11 @@ class IWD_All_Model_Resource_Collection extends Varien_Data_Collection
             $attribute = $filter['attribute'];
             $itemValue = $item[$attribute];
 
-            if (is_array($itemValue) ){
+            if (is_array($itemValue)) {
                 if (!$this->$method($this->_getColumnsValue($item, $filter['attribute']), $filter['value'])) {
                     return false;
                 }
-            }else if (!$this->$method($itemValue, $filter['value'])) {
+            } else if (!$this->$method($itemValue, $filter['value'])) {
                 return false;
             }
         }
@@ -126,8 +127,9 @@ class IWD_All_Model_Resource_Collection extends Varien_Data_Collection
     {
         $value = $item->getData($column);
 
-        if (is_array($value))
-           return implode(',', $value);
+        if (is_array($value)) {
+            return implode(',', $value);
+        }
 
         return $value;
     }

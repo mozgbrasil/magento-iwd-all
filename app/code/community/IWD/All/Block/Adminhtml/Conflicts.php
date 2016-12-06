@@ -1,4 +1,5 @@
 <?php
+
 class IWD_All_Block_Adminhtml_Conflicts extends Mage_Adminhtml_Block_Widget_Grid_Container
 {
     public function __construct()

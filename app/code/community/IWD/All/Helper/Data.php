@@ -61,8 +61,8 @@ class IWD_All_Helper_Data extends Mage_Core_Helper_Abstract
 
         foreach ($indexes as $item) {
             $info = "MODE: {$item->getMode()},<br />
-			STATUS: {$item->getStatus()},<br />
-			UPDATE AT: {$item->getEndedAt()}";
+            STATUS: {$item->getStatus()},<br />
+            UPDATE AT: {$item->getEndedAt()}";
             $this->AddRowTable($item ['indexer_code'], $info);
         }
     }
