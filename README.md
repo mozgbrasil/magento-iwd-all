@@ -12,6 +12,10 @@ Módulo de compra em 1 passo para Magento
 
 ## Motivação
 
+Automação para a instalação do módulo
+
+http://iwdextensions.com/media/modules/iwd_all.tgz
+
 Para mais informações, visite 
 
 https://www.iwdagency.com/extensions/one-step-page-checkout.html
