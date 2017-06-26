@@ -2,13 +2,11 @@
 <layout version="0.1.0">
     <default>
         <reference name="head">
-            <action method="addJs">
+            <action method="addJs" ifconfig="opc/global/jquery">
                 <script>iwd/all/iwd-jquery-2.1.3.min.js</script>
-                <params><![CDATA[name=""]]></params>
             </action>
             <action method="addJs">
                 <script>iwd/all/modal.js</script>
-                <params><![CDATA[name=""]]></params>
             </action>
         </reference>
     </default>
