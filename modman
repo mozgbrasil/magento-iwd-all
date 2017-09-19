@@ -1,10 +1,11 @@
 ## Modman Module Mozg
-app/code/community/IWD/ app/code/community/IWD/
+app/code/community/IWD/All/ app/code/community/IWD/All/
 app/design/adminhtml/default/default/layout/iwdall.xml  app/design/adminhtml/default/default/layout/iwdall.xml
-app/design/adminhtml/default/default/template/iwd/ app/design/adminhtml/default/default/template/iwd/
+app/design/adminhtml/default/default/template/iwd/notification/ app/design/adminhtml/default/default/template/iwd/notification/
+app/design/adminhtml/default/default/template/iwd/jsinit.phtml app/design/adminhtml/default/default/template/iwd/jsinit.phtml
 app/design/frontend/base/default/layout/iwd_all.xml app/design/frontend/base/default/layout/iwd_all.xml
-app/design/frontend/base/default/template/iwd/  app/design/frontend/base/default/template/iwd/
+app/design/frontend/base/default/template/iwd/all/  app/design/frontend/base/default/template/iwd/all/
 app/etc/modules/IWD_All.xml app/etc/modules/IWD_All.xml
-js/iwd/all/ js/iwd/all/
-skin/adminhtml/default/default/iwd/ skin/adminhtml/default/default/iwd/
 app/locale/en_US/IWD_All.csv    app/locale/en_US/IWD_All.csv
+js/iwd/all/ js/iwd/all/
+skin/adminhtml/default/default/iwd/all/ skin/adminhtml/default/default/iwd/all/
