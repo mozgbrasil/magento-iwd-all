@@ -20,7 +20,7 @@ Automação para a instalação do módulo
 
 http://iwdextensions.com/media/modules/iwd_all.tgz
 
-Para mais informações, visite 
+Para mais informações, visite
 
 https://www.iwdagency.com/extensions/one-step-page-checkout.html
 
@@ -79,7 +79,7 @@ Certique se da presença do arquivo composer.json na raiz do seu projeto Magento
 	  "repositories": [
 	    {
 	      "type": "composer",
-	      "url": "https?://packages.firegento.com"
+	      "url": "https://packages.firegento.com"
 	    }
 	  ],
 	  "extra": {
